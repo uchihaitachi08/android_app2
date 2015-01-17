@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  train_no: MyString
+  source: MyString
+  destination: MyString
+  doj: MyString
+  clas: MyString
+  limit: MyString
+  auth_id: MyString
+
+two:
+  train_no: MyString
+  source: MyString
+  destination: MyString
+  doj: MyString
+  clas: MyString
+  limit: MyString
+  auth_id: MyString
