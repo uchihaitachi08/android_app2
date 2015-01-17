@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@user) do |f| %>
+      <%= f.label :train_no %>
+      <%= f.text_field :train_no %>
+      <br/>
+
+      <%= f.label :source %>
+      <%= f.text_field :source %>
+      <br/>
+
+      <%= f.label :destination %>
+      <%= f.text_field :destination %>
+      <br/>
+
+      <%= f.label :doj %>
+      <%= f.text_field :doj %>
+      <br/>
+
+      <%= f.label :clas %>
+      <%= f.text_field :clas %>
+      <br/>
+
+      <%= f.label :limit %>
+      <%= f.text_field :limit %>
+      <br/>
+
+      <%= f.label :auth_id %>
+      <%= f.password_field :auth_id %>
+      <br/>
+
+      <%= f.submit "submit", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
